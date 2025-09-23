@@ -27,31 +27,11 @@ const HeroSection = () => {
             Equipamentos modernos com instalação rápida e manutenção inclusa.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex justify-center">
             <Button variant="gold" size="lg" className="group">
               Solicite um Orçamento
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            
-            <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary">
-              Ver Nossos Equipamentos
-            </Button>
-          </div>
-
-          {/* Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 pt-8 border-t border-white/20">
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-gold mb-2">500+</div>
-              <div className="text-gray-200">Empresas Atendidas</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-gold mb-2">24h</div>
-              <div className="text-gray-200">Instalação Rápida</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-gold mb-2">15+</div>
-              <div className="text-gray-200">Anos de Experiência</div>
-            </div>
           </div>
         </div>
       </div>

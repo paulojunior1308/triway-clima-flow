@@ -73,26 +73,65 @@ const Services = () => {
           })}
         </div>
 
-        {/* Featured Equipment */}
+        {/* Featured Equipment - Climatizador SIXXIS */}
         <div className="bg-card rounded-2xl p-8 md:p-12 shadow-elegant">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div>
               <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
-                Equipamentos de <span className="text-gold">Última Geração</span>
+                Climatizador <span className="text-gold">SIXXIS SX100</span>
               </h3>
-              <p className="text-muted-foreground mb-8 leading-relaxed text-lg">
-                Trabalhamos apenas com equipamentos das melhores marcas do mercado, 
-                garantindo máxima eficiência energética e durabilidade para seu negócio.
+              <p className="text-muted-foreground mb-6 leading-relaxed text-lg">
+                Resfresque Seu Ambiente, Amplie Seu Conforto. Explore uma nova dimensão de conforto 
+                com o Climatizador SX100 Sixxis! Desfrute de uma climatização eficaz, enquanto economiza 
+                energia e desfruta de um ambiente fresco durante todas as estações.
               </p>
               
               <div className="grid grid-cols-2 gap-6 mb-8">
                 <div>
-                  <div className="text-2xl font-bold text-gold mb-1">A++</div>
-                  <div className="text-sm text-muted-foreground">Eficiência Energética</div>
+                  <div className="text-2xl font-bold text-gold mb-1">12.000</div>
+                  <div className="text-sm text-muted-foreground">m³/h Fluxo de Ar</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-gold mb-1">≤35dB</div>
-                  <div className="text-sm text-muted-foreground">Baixo Ruído</div>
+                  <div className="text-2xl font-bold text-gold mb-1">400W</div>
+                  <div className="text-sm text-muted-foreground">Baixo Consumo</div>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold text-gold mb-1">100L</div>
+                  <div className="text-sm text-muted-foreground">Capacidade de Água</div>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold text-gold mb-1">A</div>
+                  <div className="text-sm text-muted-foreground">Eficiência Energética</div>
+                </div>
+              </div>
+
+              <div className="mb-8">
+                <h4 className="font-semibold text-foreground mb-4">Principais Benefícios:</h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+                    <div className="w-1.5 h-1.5 bg-gold rounded-full flex-shrink-0"></div>
+                    <span>Climatização Eficiente</span>
+                  </div>
+                  <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+                    <div className="w-1.5 h-1.5 bg-gold rounded-full flex-shrink-0"></div>
+                    <span>Economia de Energia</span>
+                  </div>
+                  <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+                    <div className="w-1.5 h-1.5 bg-gold rounded-full flex-shrink-0"></div>
+                    <span>Purificação do Ar</span>
+                  </div>
+                  <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+                    <div className="w-1.5 h-1.5 bg-gold rounded-full flex-shrink-0"></div>
+                    <span>Operação Silenciosa</span>
+                  </div>
+                  <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+                    <div className="w-1.5 h-1.5 bg-gold rounded-full flex-shrink-0"></div>
+                    <span>Design Moderno</span>
+                  </div>
+                  <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+                    <div className="w-1.5 h-1.5 bg-gold rounded-full flex-shrink-0"></div>
+                    <span>Mobilidade com Rodízios</span>
+                  </div>
                 </div>
               </div>
 
@@ -103,7 +142,7 @@ const Services = () => {
             <div>
               <img
                 src={portableImage}
-                alt="Equipamento de climatização TRIWAY"
+                alt="Climatizador SIXXIS SX100 - Equipamento de climatização TRIWAY"
                 className="rounded-lg shadow-gold w-full h-auto"
               />
             </div>
