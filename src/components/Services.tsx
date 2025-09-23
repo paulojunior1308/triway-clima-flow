@@ -28,7 +28,7 @@ const Services = () => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Oferecemos uma linha completa de equipamentos e serviços para atender 
-            todas as necessidades de climatização da sua empresa
+            todas as necessidades de climatização e aquecimento da sua empresa
           </p>
         </div>
 

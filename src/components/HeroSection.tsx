@@ -21,7 +21,7 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            Locação de Ar-Condicionado e 
+            Locação de Aquecedores e 
             <span className="text-gold block mt-2">Climatizadores</span>
             para sua Empresa
           </h1>
