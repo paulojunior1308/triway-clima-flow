@@ -20,7 +20,7 @@ const About = () => {
             </h2>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              A TRIWAY é uma empresa especializada em locação de equipamentos de climatização 
+              A TRIWAY é uma empresa especializada em locação de equipamentos de climatização e aquecimento
               para o setor corporativo. Com anos de experiência no mercado, oferecemos 
               soluções personalizadas que garantem o conforto térmico ideal para sua empresa.
             </p>
