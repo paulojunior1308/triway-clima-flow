@@ -12,6 +12,10 @@ const Header = () => {
     { label: "Contato", href: "#contato" },
   ];
 
+  const phoneNumber = "5511917121374";
+  const message = "Olá! Gostaria de solicitar um orçamento para locação de climatizadores/ar-condicionado. Pode me ajudar?";
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
   return (
     <header className="fixed top-0 left-0 right-0 bg-background/95 backdrop-blur-sm border-b border-border z-50">
       <div className="container mx-auto px-4 py-3">
@@ -36,7 +40,7 @@ const Header = () => {
                 {item.label}
               </a>
             ))}
-            <Button variant="gold" size="sm">
+            <Button variant="gold" size="sm" onClick={() => window.open(whatsappUrl, "_blank")}> 
               Solicitar Orçamento
             </Button>
           </nav>
@@ -68,7 +72,7 @@ const Header = () => {
                   {item.label}
                 </a>
               ))}
-              <Button variant="gold" size="sm" className="w-full mt-4">
+              <Button variant="gold" size="sm" className="w-full mt-4" onClick={() => window.open(whatsappUrl, "_blank")}>
                 Solicitar Orçamento
               </Button>
             </nav>

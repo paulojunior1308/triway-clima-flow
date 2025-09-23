@@ -66,22 +66,14 @@ const Testimonials = () => {
 
         {/* Trust Indicators */}
         <div className="mt-16 pt-16 border-t border-white/20">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          <div className="flex justify-center gap-16 text-center">
             <div>
-              <div className="text-3xl font-bold text-gold mb-2">98%</div>
+              <div className="text-3xl font-bold text-gold mb-2">99%</div>
               <div className="text-gray-300">Satisfação dos Clientes</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-gold mb-2">500+</div>
-              <div className="text-gray-300">Equipamentos Locados</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-gold mb-2">24h</div>
               <div className="text-gray-300">Suporte Técnico</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-gold mb-2">15+</div>
-              <div className="text-gray-300">Anos de Mercado</div>
             </div>
           </div>
         </div>

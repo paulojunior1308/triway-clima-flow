@@ -24,7 +24,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-gold flex-shrink-0" />
-                <span className="text-gray-300">(11) 99999-9999</span>
+                <span className="text-gray-300">(11) 91712-1374</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-gold flex-shrink-0" />
@@ -33,8 +33,8 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-gold flex-shrink-0 mt-0.5" />
                 <span className="text-gray-300">
-                  Rua das Empresas, 123<br />
-                  São Paulo - SP, 01234-567
+                  Rua Saint-Germain, 302 - Jardim Edda<br />
+                  São Paulo - SP, 04844-010
                 </span>
               </div>
             </div>
@@ -63,8 +63,6 @@ const Footer = () => {
             <h3 className="text-lg font-semibold text-gold mb-4">Serviços</h3>
             <ul className="space-y-2 text-gray-300">
               <li>Ar-Condicionado Portátil</li>
-              <li>Split Corporativo</li>
-              <li>Climatizadores Industriais</li>
               <li>Instalação e Manutenção</li>
               <li>Suporte Técnico 24h</li>
             </ul>
@@ -75,15 +73,7 @@ const Footer = () => {
         <div className="border-t border-white/20 pt-8 mt-12">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm">
-              © 2024 TRIWAY. Todos os direitos reservados.
-            </div>
-            <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-gray-400 hover:text-gold transition-colors">
-                Política de Privacidade
-              </a>
-              <a href="#" className="text-gray-400 hover:text-gold transition-colors">
-                Termos de Uso
-              </a>
+              © 2025 TRIWAY. Todos os direitos reservados.
             </div>
           </div>
         </div>

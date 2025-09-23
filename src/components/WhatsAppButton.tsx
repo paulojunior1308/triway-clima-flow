@@ -2,8 +2,8 @@ import React from "react";
 
 const WhatsAppButton = () => {
   // WhatsApp floating button component
-  const phoneNumber = "5511999999999"; // Replace with actual WhatsApp number
-  const message = "Olá! Gostaria de solicitar um orçamento para locação de equipamentos de climatização.";
+  const phoneNumber = "5511917121374";
+  const message = "Olá! Gostaria de solicitar um orçamento para locação de climatizadores/ar-condicionado. Pode me ajudar?";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (

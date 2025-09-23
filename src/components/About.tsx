@@ -38,11 +38,6 @@ const About = () => {
                 </div>
               ))}
             </div>
-
-            <Button variant="gold" size="lg" className="group">
-              Fale Conosco
-              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
           </div>
 
           {/* Image */}

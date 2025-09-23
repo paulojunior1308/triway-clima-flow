@@ -3,6 +3,10 @@ import { ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-ac.jpg";
 
 const HeroSection = () => {
+  const phoneNumber = "5511917121374";
+  const message = "Olá! Gostaria de solicitar um orçamento para locação de climatizadores/ar-condicionado. Pode me ajudar?";
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
@@ -28,7 +32,7 @@ const HeroSection = () => {
           </p>
 
           <div className="flex justify-center">
-            <Button variant="gold" size="lg" className="group">
+            <Button variant="gold" size="lg" className="group" onClick={() => window.open(whatsappUrl, "_blank")}>
               Solicite um Orçamento
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>

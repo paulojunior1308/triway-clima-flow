@@ -20,20 +20,26 @@ const CTASection = () => {
               variant="outline" 
               size="lg" 
               className="border-gold-foreground text-gold-foreground hover:bg-gold-foreground hover:text-gold group min-w-[250px]"
+              asChild
             >
-              <Phone className="mr-2 h-5 w-5" />
-              Ligar Agora
-              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              <a href="tel:+5511917121374">
+                <Phone className="mr-2 h-5 w-5" />
+                Ligar Agora
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              </a>
             </Button>
             
             <Button 
               variant="secondary" 
               size="lg"
               className="bg-white text-primary hover:bg-gray-100 group min-w-[250px]"
+              asChild
             >
-              <Mail className="mr-2 h-5 w-5" />
-              Enviar E-mail
-              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              <a href="mailto:contato@triway.com.br">
+                <Mail className="mr-2 h-5 w-5" />
+                Enviar E-mail
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              </a>
             </Button>
           </div>
 
@@ -42,7 +48,7 @@ const CTASection = () => {
             <div className="text-center p-6 bg-white/10 rounded-lg backdrop-blur-sm">
               <Phone className="h-8 w-8 text-gold-foreground mx-auto mb-4" />
               <div className="font-semibold text-gold-foreground mb-2">Ligue Agora</div>
-              <div className="text-gold-foreground/80">(11) 99999-9999</div>
+              <div className="text-gold-foreground/80">(11) 91712-1374</div>
             </div>
             <div className="text-center p-6 bg-white/10 rounded-lg backdrop-blur-sm">
               <Mail className="h-8 w-8 text-gold-foreground mx-auto mb-4" />

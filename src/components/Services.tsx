@@ -7,21 +7,9 @@ const Services = () => {
   const services = [
     {
       icon: Wind,
-      title: "Ar-Condicionado Portátil",
+      title: "Climatizador Portátil",
       description: "Equipamentos móveis ideais para escritórios e ambientes menores.",
       features: ["Fácil instalação", "Baixo consumo", "Controle remoto", "Timer programável"]
-    },
-    {
-      icon: Building2,
-      title: "Split Corporativo",
-      description: "Sistemas fixos para ambientes comerciais de médio porte.",
-      features: ["Alta eficiência", "Baixo ruído", "Controle de umidade", "Filtro HEPA"]
-    },
-    {
-      icon: Factory,
-      title: "Climatizadores Industriais",
-      description: "Soluções robustas para galpões e ambientes industriais.",
-      features: ["Grande capacidade", "Resistente", "Manutenção simples", "Economia de energia"]
     },
     {
       icon: Truck,
@@ -44,7 +32,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16 justify-center">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
