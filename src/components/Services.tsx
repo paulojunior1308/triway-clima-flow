@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Wind, Building2, Factory, Truck } from "lucide-react";
-import portableImage from "@/assets/portable-ac.jpg";
+import climatizadorSixxis from "@/assets/climatizador-sixxis-2.png";
 
 const Services = () => {
   const services = [
@@ -134,14 +134,10 @@ const Services = () => {
                   </div>
                 </div>
               </div>
-
-              <Button variant="gold" size="lg">
-                Consultar Disponibilidade
-              </Button>
             </div>
             <div>
               <img
-                src={portableImage}
+                src={climatizadorSixxis}
                 alt="Climatizador SIXXIS SX100 - Equipamento de climatização TRIWAY"
                 className="rounded-lg shadow-gold w-full h-auto"
               />

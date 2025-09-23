@@ -1,13 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { CheckCircle, ArrowRight } from "lucide-react";
-import climatizadorImage from "@/assets/climatizador-sixxis.png";
+import triwayLogo from "@/assets/triway-logo.jpg";
 
 const About = () => {
   const highlights = [
     "Equipe técnica especializada e certificada",
     "Atendimento 24/7 para emergências",
-    "Manutenção preventiva inclusa",
-    "Climatizador de Ar Frio Portátil Turbo 100L – SX100 Trend"
+    "Manutenção preventiva inclusa"
   ];
 
   return (
@@ -49,8 +48,8 @@ const About = () => {
           {/* Image */}
           <div>
             <img
-              src={climatizadorImage}
-              alt="Climatizador SIXXIS SX100 TRIWAY"
+              src={triwayLogo}
+              alt="Logo TRIWAY - Climatização Corporativa"
               className="rounded-lg shadow-elegant w-full h-auto"
             />
           </div>
