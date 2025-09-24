@@ -28,7 +28,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-gold flex-shrink-0" />
-                <span className="text-gray-300">contato@triway.com.br</span>
+                <span className="text-gray-300">contato@triwaypro.com.br</span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-gold flex-shrink-0 mt-0.5" />
@@ -71,9 +71,18 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-white/20 pt-8 mt-12">
-          <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-gray-400 text-sm">
               © 2025 TRIWAY. Todos os direitos reservados.
+            </div>
+            <div className="text-gray-300 text-sm text-center md:text-right">
+              <span className="block md:inline">Desenvolvido por <span className="font-semibold">Jr Technology Solutions</span></span>
+              <span className="hidden md:inline"> • </span>
+              <a href="mailto:contato@jrtechnologysolutions.com.br" className="hover:text-gold transition-colors block md:inline">contato@jrtechnologysolutions.com.br</a>
+              <span className="hidden md:inline"> • </span>
+              <a href="https://wa.me/5511973802744" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors block md:inline">WhatsApp: +55 (11) 97380-2744</a>
+              <span className="hidden md:inline"> • </span>
+              <a href="https://www.instagram.com/jr.tech_solutions" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors block md:inline">Instagram: @jr.tech_solutions</a>
             </div>
           </div>
         </div>

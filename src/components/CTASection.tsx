@@ -35,7 +35,7 @@ const CTASection = () => {
               className="bg-white text-primary hover:bg-gray-100 group min-w-[250px]"
               asChild
             >
-              <a href="mailto:contato@triway.com.br">
+              <a href="mailto:contato@triwaypro.com.br">
                 <Mail className="mr-2 h-5 w-5" />
                 Enviar E-mail
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -53,7 +53,7 @@ const CTASection = () => {
             <div className="text-center p-6 bg-white/10 rounded-lg backdrop-blur-sm">
               <Mail className="h-8 w-8 text-gold-foreground mx-auto mb-4" />
               <div className="font-semibold text-gold-foreground mb-2">Envie um E-mail</div>
-              <div className="text-gold-foreground/80">contato@triway.com.br</div>
+              <div className="text-gold-foreground/80">contato@triwaypro.com.br</div>
             </div>
           </div>
 
